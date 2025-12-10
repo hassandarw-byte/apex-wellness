@@ -1,23 +1,14 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import { VitePWA } from 'vite-plugin-pwa'
+// import { VitePWA } from 'vite-plugin-pwa'
 import path from 'path'
 
 export default defineConfig({
+  base: '/apex-wellness/',
   root: './client',
   plugins: [
-    react(),
-    VitePWA({
-      registerType: 'autoUpdate',
-      manifest: {
-        name: 'APEX Wellness',
-        short_name: 'APEX',
-        description: 'تطبيق اللياقة والصحة الإسلامي',
-        theme_color: '#0f0f1e',
-        background_color: '#0f0f1e',
-        display: 'standalone'
-      }
-    })
+    react()
+    // VitePWA disabled for GitHub Pages
   ],
   resolve: {
     alias: {
