@@ -79,10 +79,10 @@ define(['./workbox-5a5d9309'], (function (workbox) { 'use strict';
    */
   workbox.precacheAndRoute([{
     "url": "registerSW.js",
-    "revision": "1872c500de691dce40960bb85481de07"
+    "revision": "3666db32bcd56e55affdb64b6c58bcf6"
   }, {
     "url": "index.html",
-    "revision": "b035ce595895e3b9b323425aadcddb30"
+    "revision": "58daf622cafad49959e24ece15114e29"
   }, {
     "url": "assets/index-gOviNLBb.js",
     "revision": null
@@ -100,7 +100,7 @@ define(['./workbox-5a5d9309'], (function (workbox) { 'use strict';
     "revision": null
   }, {
     "url": "manifest.webmanifest",
-    "revision": "cf7fa12ed4991aec2490d1f74b2c0bcc"
+    "revision": "46992a578639606907bf929b9299a235"
   }], {});
   workbox.cleanupOutdatedCaches();
   workbox.registerRoute(new workbox.NavigationRoute(workbox.createHandlerBoundToURL("index.html")));
