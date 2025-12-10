@@ -49,6 +49,138 @@ const meals = [
     image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=300&fit=crop',
     ingredients: ['أرز بسمتي', 'دجاج', 'خضار', 'توابل'],
     halal: true
+  },
+  {
+    id: 5,
+    name: 'فطيرة بالبيض',
+    type: 'إفطار',
+    calories: 280,
+    protein: 18,
+    carbs: 35,
+    fat: 8,
+    image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=300&fit=crop',
+    ingredients: ['بيض', 'خبز', 'زبدة', 'جبنة'],
+    halal: true
+  },
+  {
+    id: 6,
+    name: 'لحم مشوي',
+    type: 'عشاء',
+    calories: 520,
+    protein: 50,
+    carbs: 10,
+    fat: 25,
+    image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=300&fit=crop',
+    ingredients: ['لحم بقري', 'بهارات', 'زيت', 'ليمون'],
+    halal: true
+  },
+  {
+    id: 7,
+    name: 'سلطة الخضراوات',
+    type: 'غداء',
+    calories: 150,
+    protein: 8,
+    carbs: 25,
+    fat: 4,
+    image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=300&fit=crop',
+    ingredients: ['خس',  'طماطم', 'خيار', 'زيت زيتون'],
+    halal: true
+  },
+  {
+    id: 8,
+    name: 'شاورمة الدجاج',
+    type: 'غداء',
+    calories: 480,
+    protein: 42,
+    carbs: 38,
+    fat: 16,
+    image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=300&fit=crop',
+    ingredients: ['دجاج', 'خبز', 'طحينة', 'خضار'],
+    halal: true
+  },
+  {
+    id: 9,
+    name: 'عصيدة الدجاج',
+    type: 'عشاء',
+    calories: 380,
+    protein: 35,
+    carbs: 28,
+    fat: 12,
+    image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=300&fit=crop',
+    ingredients: ['دجاج', 'خضار', 'بهارات', 'زيت'],
+    halal: true
+  },
+  {
+    id: 10,
+    name: 'الفول بالزيت',
+    type: 'إفطار',
+    calories: 220,
+    protein: 12,
+    carbs: 28,
+    fat: 8,
+    image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=300&fit=crop',
+    ingredients: ['فول', 'زيت زيتون', 'ليمون', 'بهارات'],
+    halal: true
+  },
+  {
+    id: 11,
+    name: 'سمك مشوي',
+    type: 'عشاء',
+    calories: 420,
+    protein: 45,
+    carbs: 12,
+    fat: 16,
+    image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=300&fit=crop',
+    ingredients: ['سمك', 'ليمون', 'أعشاب', 'زيت'],
+    halal: true
+  },
+  {
+    id: 12,
+    name: 'معكرونة بالدجاج',
+    type: 'غداء',
+    calories: 420,
+    protein: 32,
+    carbs: 48,
+    fat: 10,
+    image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=300&fit=crop',
+    ingredients: ['معكرونة', 'دجاج', 'طماطم', 'جبنة'],
+    halal: true
+  },
+  {
+    id: 13,
+    name: 'لبنة بالعسل',
+    type: 'وجبة خفيفة',
+    calories: 180,
+    protein: 15,
+    carbs: 22,
+    fat: 4,
+    image: 'https://images.unsplash.com/photo-1590080876-5b1d4e4b6f0a?w=400&h=300&fit=crop',
+    ingredients: ['لبنة', 'عسل', 'ملعقة', 'ملح'],
+    halal: true
+  },
+  {
+    id: 14,
+    name: 'كباب مشوي',
+    type: 'عشاء',
+    calories: 490,
+    protein: 48,
+    carbs: 15,
+    fat: 22,
+    image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=300&fit=crop',
+    ingredients: ['لحم', 'باذنجان', 'طماطم', 'بهارات'],
+    halal: true
+  },
+  {
+    id: 15,
+    name: 'عسير البرتقال',
+    type: 'وجبة خفيفة',
+    calories: 110,
+    protein: 2,
+    carbs: 26,
+    fat: 0,
+    image: 'https://images.unsplash.com/photo-1590080876-5b1d4e4b6f0a?w=400&h=300&fit=crop',
+    ingredients: ['برتقال', 'ماء', 'عسل'],
+    halal: true
   }
 ]
 

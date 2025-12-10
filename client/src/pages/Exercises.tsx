@@ -37,6 +37,90 @@ const exercises = [
     youtubeId: 'I1-cqnMoK5E',
     description: 'تمرين عضلات البطن الفعال',
     steps: ['استلقِ على ظهرك', 'اثنِ ركبتيك', 'ارفع رأسك وكتفيك']
+  },
+  {
+    id: 4,
+    name: 'تمرين القرفصاء',
+    type: 'قوة',
+    difficulty: 'متوسط',
+    duration: 20,
+    calories: 120,
+    image: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=400&h=300&fit=crop',
+    youtubeId: 'aclHkVaku9U',
+    description: 'تمرين القرفصاء لتقوية الرجلين والمؤخرة',
+    steps: ['قف بقدميك بعرض الكتفين', 'انزل ببطء', 'ارفع نفسك للأعلى']
+  },
+  {
+    id: 5,
+    name: 'تمرين الدراجة',
+    type: 'قلب',
+    difficulty: 'سهل',
+    duration: 25,
+    calories: 200,
+    image: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=400&h=300&fit=crop',
+    youtubeId: 'Yd-g8WS6cAE',
+    description: 'تمرين الدراجة الثابتة لتحسين اللياقة',
+    steps: ['اجلس على الدراجة', 'ابدأ بالدوس ببطء', 'زد السرعة تدريجياً']
+  },
+  {
+    id: 6,
+    name: 'تمرين اليوغا',
+    type: 'مرونة',
+    difficulty: 'سهل',
+    duration: 30,
+    calories: 100,
+    image: 'https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=400&h=300&fit=crop',
+    youtubeId: 'oBu-pQG6sTY',
+    description: 'تمرين اليوغا للمرونة والاسترخاء',
+    steps: ['ابدأ بوضعية الجلوس', 'قم بتمديد جسدك', 'تنفس بعمق']
+  },
+  {
+    id: 7,
+    name: 'تمرين رفع الأثقال',
+    type: 'قوة',
+    difficulty: 'صعب',
+    duration: 45,
+    calories: 250,
+    image: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=400&h=300&fit=crop',
+    youtubeId: 'mWfiBoH54b8',
+    description: 'تمرين رفع الأثقال لبناء العضلات',
+    steps: ['اختر الوزن المناسب', 'ارفع الأثقال ببطء', 'انزل بتحكم']
+  },
+  {
+    id: 8,
+    name: 'تمرين السباحة',
+    type: 'قلب',
+    difficulty: 'متوسط',
+    duration: 40,
+    calories: 350,
+    image: 'https://images.unsplash.com/photo-1576610616656-570f080e2203?w=400&h=300&fit=crop',
+    youtubeId: 'rT-Fv4_2Gy0',
+    description: 'السباحة لتحسين اللياقة الشاملة',
+    steps: ['ادخل حمام السباحة', 'ابدأ بالسباحة', 'حافظ على التنفس']
+  },
+  {
+    id: 9,
+    name: 'تمرين الحبل',
+    type: 'قلب',
+    difficulty: 'متوسط',
+    duration: 20,
+    calories: 280,
+    image: 'https://images.unsplash.com/photo-1599058917212-d750089bc07e?w=400&h=300&fit=crop',
+    youtubeId: 'n4eFcjDWxJo',
+    description: 'تمرين الحبل لحرق السعرات الحرارية',
+    steps: ['امسك الحبل', 'ابدأ بالقفز', 'حافظ على السرعة']
+  },
+  {
+    id: 10,
+    name: 'تمرين الزومبا',
+    type: 'قلب',
+    difficulty: 'متوسط',
+    duration: 50,
+    calories: 400,
+    image: 'https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?w=400&h=300&fit=crop',
+    youtubeId: 'QCqKVhKlN-0',
+    description: 'رقص الزومبا لحرق السعرات بمرح',
+    steps: ['استمع للموسيقى', 'اتبع الحركات', 'استمتع بالرقص']
   }
 ]
 
